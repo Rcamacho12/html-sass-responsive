@@ -5,12 +5,11 @@
     padding-right: 1.25rem;
 
     li a {
-    text-decoration: none;
-    color: black;
-    font-size: 1.875rem;
-
-    &:hover {
-        text-decoration: underline;
-    }
+        text-decoration: none;
+        color: black;
+        font-size: 1.875rem;
+        &:hover {
+            text-decoration: underline;
+        }
     }
 }

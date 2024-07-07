@@ -2,6 +2,16 @@
     width: 100%;
     height: 100vh;
 }
+.sectionFont p{
+    font-family: "Nunito" serif;
+    font-weight: 900;
+    font-size: 30px;
+}
+.h1Index {
+    text-align: center;
+    font-family: "Roboto", serif;
+    font-size: 80px;
+}
 .grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -54,4 +64,7 @@
     background: url(../assets/img/fondoindex3.jpg);
     background-position: center;
     background-size: cover; 
+}
+.cuadrado{
+    border-radius: 25%;
 }

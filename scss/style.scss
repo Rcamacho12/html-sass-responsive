@@ -13,7 +13,17 @@
 
 @import"./layout/headerIndex";
 @import"./layout/main-index";
-@import"./layout/footer";
+@import"./layout/footerIndex";
+@import"./layout/headerTortas.scss";
+@import"./layout/mainTortas.scss";
+@import"./layout/footerTortas.scss";
+@import"./layout/headerDonas.scss";
+@import"./layout/mainDonas.scss";
+@import"./layout/footerDonas.scss";
+@import"./layout/headerTartas.scss";
+@import"./layout/mainTartas.scss";
+@import"./layout/footerTartas.scss";
+
 
 /*Imports componentes*/
 

@@ -1,8 +1,11 @@
-.headerIndex {
+.footerIndex {
     background-color: #F1C8C5;
     display: flex;
     width: 100%;
+    min-height: auto;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
 }
+
+

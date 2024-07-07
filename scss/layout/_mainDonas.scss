@@ -1,0 +1,48 @@
+.h1Donas{
+    text-align: center;
+    font-family: "Roboto", serif;
+    font-size: 50px;
+}
+.item1Donas p{
+    font-family: "Nunito" serif;
+    font-weight: 500;
+    font-size: 20px;
+}
+.mainImgDonas {
+    margin: auto;
+}
+.imagenDonas {  
+    border-radius: 50%;
+}
+.mainDonas{
+    background-color:#54B59E;
+}
+.cuadradoDonas{
+    border-radius: 25%;
+    width: 150px;
+}
+.gridDonas {
+    display: grid;
+    min-height: 100vh;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    align-items: center;
+    &.item1Donas {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    }
+    .item2Donas {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    }
+}
+.subGridDonas {
+    grid-column: 3/4;
+    grid-row: 1/2;
+    display: grid;
+    min-height: 100vh;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    align-items: center;
+    justify-items: center;
+}
