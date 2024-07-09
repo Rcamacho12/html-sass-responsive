@@ -15,11 +15,18 @@
     border-radius: 50%;
 }
 .mainTartas {
-    background-color: #855BE0;;
+    background-image: linear-gradient(to right top, #855be0, #9566e5, #a371e9, 
+    #b17dee, #be89f3, #be89f3, #be89f3, #be89f3, #b17dee, #a371e9, #9566e5, 
+    #855be0);
 }
 .cuadradoTartas{
     border-radius: 25%;
     width: 150px;
+}
+.item3Tartas:hover, .item4Tartas:hover, .item5Tartas:hover,
+.item6Tartas:hover, .item7Tartas:hover, .item8Tartas:hover {
+    transform: scale(1.1);
+    transition: 200ms;
 }
 .gridTartas {
     display: grid;

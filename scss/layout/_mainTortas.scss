@@ -15,11 +15,17 @@
     border-radius: 50%;
 }
 .mainTortas {
-    background-color: #A3725D;
+    background-image: linear-gradient(to right top, #a3725d, #ae7f69, #b98c75, 
+    #c59a82, #d0a78f);
 }
 .cuadradoTortas{
     border-radius: 25%;
     width: 150px;
+}
+.item3Tortas:hover, .item4Tortas:hover, .item5Tortas:hover, 
+.item6Tortas:hover, .item7Tortas:hover, .item8Tortas:hover {
+    transform: scale(1.1);
+    transition: 200ms;
 }
 .gridTortas {
     display: grid;

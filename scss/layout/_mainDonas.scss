@@ -15,11 +15,17 @@
     border-radius: 50%;
 }
 .mainDonas{
-    background-color:#54B59E;
+    background-image: linear-gradient(to right top, #54b59e, #4dac96, 
+    #46a48d, #3f9b85, #38937d);
 }
 .cuadradoDonas{
     border-radius: 25%;
     width: 150px;
+}
+.item3Donas:hover, .item4Donas:hover, .item5Donas:hover, 
+.item6Donas:hover, .item7Donas:hover, .item8Donas:hover {
+    transform: scale(1.1);
+    transition: 200ms;
 }
 .gridDonas {
     display: grid;

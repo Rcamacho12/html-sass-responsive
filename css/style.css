@@ -115,11 +115,16 @@ p {
   border-radius: 50%; }
 
 .mainTortas {
-  background-color: #A3725D; }
+  background-image: linear-gradient(to right top, #a3725d, #ae7f69, #b98c75, #c59a82, #d0a78f); }
 
 .cuadradoTortas {
   border-radius: 25%;
   width: 150px; }
+
+.item3Tortas:hover, .item4Tortas:hover, .item5Tortas:hover,
+.item6Tortas:hover, .item7Tortas:hover, .item8Tortas:hover {
+  transform: scale(1.1);
+  transition: 200ms; }
 
 .gridTortas {
   display: grid;
@@ -178,11 +183,16 @@ p {
   border-radius: 50%; }
 
 .mainDonas {
-  background-color: #54B59E; }
+  background-image: linear-gradient(to right top, #54b59e, #4dac96, #46a48d, #3f9b85, #38937d); }
 
 .cuadradoDonas {
   border-radius: 25%;
   width: 150px; }
+
+.item3Donas:hover, .item4Donas:hover, .item5Donas:hover,
+.item6Donas:hover, .item7Donas:hover, .item8Donas:hover {
+  transform: scale(1.1);
+  transition: 200ms; }
 
 .gridDonas {
   display: grid;
@@ -241,11 +251,16 @@ p {
   border-radius: 50%; }
 
 .mainTartas {
-  background-color: #855BE0; }
+  background-image: linear-gradient(to right top, #855be0, #9566e5, #a371e9, #b17dee, #be89f3, #be89f3, #be89f3, #be89f3, #b17dee, #a371e9, #9566e5, #855be0); }
 
 .cuadradoTartas {
   border-radius: 25%;
   width: 150px; }
+
+.item3Tartas:hover, .item4Tartas:hover, .item5Tartas:hover,
+.item6Tartas:hover, .item7Tartas:hover, .item8Tartas:hover {
+  transform: scale(1.1);
+  transition: 200ms; }
 
 .gridTartas {
   display: grid;
@@ -288,7 +303,7 @@ p {
   position: sticky; }
 
 .mainNosotros {
-  background-color: #7CC2EA;
+  background-image: linear-gradient(to right top, #c1e9ff, #a9d6f0, #90c3e1, #77b1d2, #5e9fc3);
   padding: 20px; }
   .mainNosotros h1 {
     font-size: 24px; }
