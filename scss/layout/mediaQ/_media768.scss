@@ -1,0 +1,130 @@
+@media(max-width: 768px){
+    /*modificaciones para index*/
+    .h1Index {
+        font-size: 60px;
+        color: rgb(0, 0, 0);
+    }
+    .sectionFont p{
+        font-weight: 400;
+        font-size: 20px;
+        color:  rgb(0, 0, 0);
+    }
+    .grid{
+        display: flex;
+        flex-direction: column;
+        background-color: #D8A4A4;
+        background-image: none;
+        min-width: 100%;
+        min-height: 100vh;
+    }
+    .item2 {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    .item3 {
+        display: flex;
+        flex-direction: row;
+    }
+    .item4 {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    .navBar li a{
+        text-decoration: none;
+        color: black;
+        font-size: 1.25rem;
+    }
+    .headerIndex {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .footerIndex{
+        flex-direction: column;
+        align-items: center;
+        min-width: 100%;
+        min-height: auto;
+    }
+    .fontFooter img{
+        width: 30px;
+    }
+    .imgRedes img{
+        width: 30px;
+    }
+    /*modificaciones para Tortas*/
+    .headerTortas{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .gridTortas{
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: 1fr;
+    &.item1Tortas {
+        grid-column: 1/2;
+        grid-row: 1/2;
+        }
+        .item2Tortas {
+        grid-column: 1/2;
+        grid-row: 2/3;
+        }
+    }
+    .subGridTortas{
+        grid-column: 1/2;
+        grid-row: 3/4;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+    }
+    /*modificaciones para Donas*/
+    .headerDonas{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .gridDonas{
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: 1fr;
+    &.item1Donas{
+        grid-column: 1/2;
+        grid-row: 1/2;
+        }
+        .item2Donas{
+        grid-column: 1/2;
+        grid-row: 2/3;
+        }
+    }
+    .subGridDonas{
+        grid-column: 1/2;
+        grid-row: 3/4;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+    }
+    /*Modificaciones para Tartas*/
+    .headerTartas{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .gridTartas{
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: 1fr;
+    &.item1Tartas{
+        grid-column: 1/2;
+        grid-row: 1/2;
+        }
+        .item2Tartas{
+        grid-column: 1/2;
+        grid-row: 2/3;
+        }
+    }
+    .subGridTartas{
+        grid-column: 1/2;
+        grid-row: 3/4;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+    }
+}
