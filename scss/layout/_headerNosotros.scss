@@ -1,8 +1,9 @@
-.footerTartas{
-    background-color: #CF99FA;
+.headerNosotros {
+    background-color: #C1E9FF;
     display: flex;
     width: 100%;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    position: sticky;
 }

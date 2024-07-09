@@ -269,6 +269,86 @@ p {
   align-items: center;
   justify-items: center; }
 
+.footerTartas {
+  background-color: #CF99FA;
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center; }
+
+.headerNosotros {
+  background-color: #C1E9FF;
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky; }
+
+.mainNosotros {
+  background-color: #7CC2EA;
+  padding: 20px; }
+  .mainNosotros h1 {
+    font-size: 24px; }
+  .mainNosotros p {
+    font-size: 16px;
+    color: #333333; }
+  .mainNosotros img {
+    border-radius: 50%;
+    height: auto;
+    margin-top: 20px; }
+
+.gridNosotros {
+  display: grid;
+  min-height: 100vh;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  align-items: center; }
+  .gridNosotros.item1Nosotros {
+    grid-column: 1/2;
+    grid-row: 1/2; }
+  .gridNosotros .item2Nosotros {
+    grid-column: 2/3;
+    grid-row: 1/2; }
+
+.item1Nosotros {
+  text-align: center; }
+
+.contenedorForm {
+  min-width: auto;
+  background-color: #ffffff38;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); }
+
+form label {
+  margin-bottom: 5px;
+  color: #333333; }
+
+form input, form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #cccccc;
+  border-radius: 4px; }
+
+form button {
+  width: 100%;
+  padding: 10px;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px; }
+
+.footerNosotros {
+  background-color: #C1E9FF;
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center; }
+
 /*Imports componentes*/
 .navBar {
   display: flex;
