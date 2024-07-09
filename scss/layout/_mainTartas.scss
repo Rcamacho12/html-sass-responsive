@@ -1,0 +1,48 @@
+.h1Tartas{
+    text-align: center;
+    font-family: "Roboto", serif;
+    font-size: 50px;
+}
+.item1Tartas p{
+    font-family: "Nunito" serif;
+    font-weight: 500;
+    font-size: 20px;
+}
+.mainImgTartas {
+    margin: auto;
+}
+.imagenTarta {  
+    border-radius: 50%;
+}
+.mainTartas {
+    background-color: #855BE0;;
+}
+.cuadradoTartas{
+    border-radius: 25%;
+    width: 150px;
+}
+.gridTartas {
+    display: grid;
+    min-height: 100vh;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    align-items: center;
+    &.item1Tartas {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    }
+    .item2Tartas {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    }
+}
+.subGridTartas {
+    grid-column: 3/4;
+    grid-row: 1/2;
+    display: grid;
+    min-height: 100vh;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    align-items: center;
+    justify-items: center;
+}
