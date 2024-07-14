@@ -1,15 +1,8 @@
-.navBar {
-    display: flex;
-    list-style: none;
-    gap: 1.25rem;
-    padding-right: 1.25rem;
-
-    li a {
-        text-decoration: none;
-        color: black;
-        font-size: 1.875rem;
-        &:hover {
-            text-decoration: underline;
-        }
-    }
+nav li a:hover{
+    font-size: 1.875rem;
+    text-decoration: underline;
+}
+nav a:hover{
+    font-size: 1.875rem;
+    text-decoration: underline;
 }

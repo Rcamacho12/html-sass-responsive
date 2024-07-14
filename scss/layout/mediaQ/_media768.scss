@@ -21,10 +21,10 @@
     .grid{
         display: flex;
         flex-direction: column;
+        justify-content: center;
         background-color: #D8A4A4;
-        background-image: none;
         min-width: 100%;
-        min-height: 100vh;
+        min-height: auto;
     }
     .item2 {
         display: flex;
@@ -135,5 +135,25 @@
         grid-row: 3/4;
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(3, 1fr);
+    }
+    /*Modificaciones para Nosotros*/
+    .headerNosotros{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .gridNosotros{
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: 1fr;
+    align-items: center;
+        .item1Nosotros {
+        grid-column: 1/1;
+        grid-row: 1/2;
+        }
+        .item2Nosotros {
+        grid-column: 1/2;
+        grid-row: 2/3;
+        }
     }
 }
