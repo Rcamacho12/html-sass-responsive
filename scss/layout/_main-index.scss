@@ -66,9 +66,8 @@
     grid-row: 1 / 3;
     width: 100%;
     height: 100vh;
-    background: $background-image;
-    background-position: center;
-    background-size: cover;
+    background-image: linear-gradient(to right top, #d68888, #da9795, #dea5a2,
+    #e1b4b0, #e4c2bf);
 }
 
 .cuadrado {
